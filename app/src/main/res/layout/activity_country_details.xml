@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="Country Details"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Country Name -->
+        <TextView
+            android:text="Country Name:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvCountryName"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Population -->
+        <TextView
+            android:text="Population:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvPopulation"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Area -->
+        <TextView
+            android:text="Area:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvArea"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Density -->
+        <TextView
+            android:text="Density:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvDensity"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Percentage of World Landmass -->
+        <TextView
+            android:text="% of World Landmass:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvPercentageWorld"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Total CO2 Emissions -->
+        <TextView
+            android:text="Total CO2 Emissions (all years):"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvTotalEmissions"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Average Emissions per Capita -->
+        <TextView
+            android:text="Average Emissions per Capita:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvAvgPerCapita"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Year with Highest Emissions -->
+        <TextView
+            android:text="Year with Highest Emissions:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvYearHighest"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Back to Home Button -->
+        <Button
+            android:id="@+id/btnBackHome"
+            android:text="Back to Home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#388E3C"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
